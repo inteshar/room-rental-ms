@@ -1,0 +1,553 @@
+{
+  "tenants": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "idPhoto": "/src/assets/johndoepp.jpg",
+      "roomNumber": "101",
+      "startDate": "2024-10-01",
+      "paymentDue": 1500,
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "idPhoto": "/src/assets/janesmithid.jpg",
+      "roomNumber": "102",
+      "startDate": "2024-10-05",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "idPhoto": "/src/assets/Alicejohnsonid.jpg",
+      "roomNumber": "103",
+      "startDate": "2024-10-10",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 4,
+      "name": "Bob Williams",
+      "idPhoto": "/src/assets/bobwilliamsid.jpg",
+      "roomNumber": "104",
+      "startDate": "2024-10-15",
+      "paymentDue": 1700,
+      "status": "Pending"
+    },
+    {
+      "id": 5,
+      "name": "Emily Clark",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "105",
+      "startDate": "2024-10-20",
+      "paymentDue": 1800,
+      "status": "Pending"
+    },
+    {
+      "id": 6,
+      "name": "Michael Lee",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "106",
+      "startDate": "2024-10-21",
+      "paymentDue": 1600,
+      "status": "Pending"
+    },
+    {
+      "id": 7,
+      "name": "Sophia Martinez",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "107",
+      "startDate": "2024-10-22",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 8,
+      "name": "William Brown",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "108",
+      "startDate": "2024-10-23",
+      "paymentDue": 1500,
+      "status": "Pending"
+    },
+    {
+      "id": 9,
+      "name": "Linda Rodriguez",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "109",
+      "startDate": "2024-10-24",
+      "paymentDue": 1700,
+      "status": "Pending"
+    },
+    {
+      "id": 10,
+      "name": "James Anderson",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "110",
+      "startDate": "2024-10-25",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 11,
+      "name": "Mia Lopez",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "111",
+      "startDate": "2024-10-26",
+      "paymentDue": 1800,
+      "status": "Pending"
+    },
+    {
+      "id": 12,
+      "name": "David Martinez",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "112",
+      "startDate": "2024-10-27",
+      "paymentDue": 1400,
+      "status": "Pending"
+    },
+    {
+      "id": 13,
+      "name": "Lily Johnson",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "113",
+      "startDate": "2024-10-28",
+      "paymentDue": 1500,
+      "status": "Pending"
+    },
+    {
+      "id": 14,
+      "name": "Oliver Taylor",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "114",
+      "startDate": "2024-10-29",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 15,
+      "name": "Noah Harris",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "115",
+      "startDate": "2024-10-30",
+      "paymentDue": 1600,
+      "status": "Pending"
+    },
+    {
+      "id": 16,
+      "name": "Ethan Moore",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "116",
+      "startDate": "2024-10-31",
+      "paymentDue": 1700,
+      "status": "Pending"
+    },
+    {
+      "id": 17,
+      "name": "Ava Perez",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "117",
+      "startDate": "2024-11-01",
+      "paymentDue": 1800,
+      "status": "Pending"
+    },
+    {
+      "id": 18,
+      "name": "Lucas White",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "118",
+      "startDate": "2024-11-02",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 19,
+      "name": "Emma Lewis",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "119",
+      "startDate": "2024-11-03",
+      "paymentDue": 1400,
+      "status": "Pending"
+    },
+    {
+      "id": 20,
+      "name": "Isabella Lee",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "120",
+      "startDate": "2024-11-04",
+      "paymentDue": 1500,
+      "status": "Pending"
+    },
+    {
+      "id": 21,
+      "name": "Elijah Walker",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "121",
+      "startDate": "2024-11-05",
+      "paymentDue": 1600,
+      "status": "Pending"
+    },
+    {
+      "id": 22,
+      "name": "Avery Scott",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "122",
+      "startDate": "2024-11-06",
+      "paymentDue": 1700,
+      "status": "Pending"
+    },
+    {
+      "id": 23,
+      "name": "Charlotte King",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "123",
+      "startDate": "2024-11-07",
+      "paymentDue": 1800,
+      "status": "Pending"
+    },
+    {
+      "id": 24,
+      "name": "Amelia Wright",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "124",
+      "startDate": "2024-11-08",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 25,
+      "name": "Harper Baker",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "125",
+      "startDate": "2024-11-09",
+      "paymentDue": 1400,
+      "status": "Pending"
+    },
+    {
+      "id": 26,
+      "name": "Jack Adams",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "126",
+      "startDate": "2024-11-10",
+      "paymentDue": 1500,
+      "status": "Pending"
+    },
+    {
+      "id": 27,
+      "name": "Sophia Turner",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "127",
+      "startDate": "2024-11-11",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 28,
+      "name": "Henry Campbell",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "128",
+      "startDate": "2024-11-12",
+      "paymentDue": 1600,
+      "status": "Pending"
+    },
+    {
+      "id": 29,
+      "name": "Sebastian Green",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "129",
+      "startDate": "2024-11-13",
+      "paymentDue": 1700,
+      "status": "Pending"
+    },
+    {
+      "id": 30,
+      "name": "Evelyn Hill",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "130",
+      "startDate": "2024-11-14",
+      "paymentDue": 1800,
+      "status": "Pending"
+    },
+    {
+      "id": 31,
+      "name": "Mason Rivera",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "131",
+      "startDate": "2024-11-15",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 32,
+      "name": "Luna Mitchell",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "132",
+      "startDate": "2024-11-16",
+      "paymentDue": 1500,
+      "status": "Pending"
+    },
+    {
+      "id": 33,
+      "name": "Aiden Carter",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "133",
+      "startDate": "2024-11-17",
+      "paymentDue": 1600,
+      "status": "Pending"
+    },
+    {
+      "id": 34,
+      "name": "Chloe Diaz",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "134",
+      "startDate": "2024-11-18",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 35,
+      "name": "Logan Bennett",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "135",
+      "startDate": "2024-11-19",
+      "paymentDue": 1400,
+      "status": "Pending"
+    },
+    {
+      "id": 36,
+      "name": "Zoe Collins",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "136",
+      "startDate": "2024-11-20",
+      "paymentDue": 1500,
+      "status": "Pending"
+    },
+    {
+      "id": 37,
+      "name": "Daniel Barnes",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "137",
+      "startDate": "2024-11-21",
+      "paymentDue": 1600,
+      "status": "Pending"
+    },
+    {
+      "id": 38,
+      "name": "Jackson Ross",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "138",
+      "startDate": "2024-11-22",
+      "paymentDue": 1700,
+      "status": "Pending"
+    },
+    {
+      "id": 39,
+      "name": "Grace Foster",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "139",
+      "startDate": "2024-11-23",
+      "paymentDue": 1800,
+      "status": "Pending"
+    },
+    {
+      "id": 40,
+      "name": "Matthew Rogers",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "140",
+      "startDate": "2024-11-24",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 41,
+      "name": "Aubrey Morgan",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "141",
+      "startDate": "2024-11-25",
+      "paymentDue": 1400,
+      "status": "Pending"
+    },
+    {
+      "id": 42,
+      "name": "Ella Murphy",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "142",
+      "startDate": "2024-11-26",
+      "paymentDue": 1500,
+      "status": "Pending"
+    },
+    {
+      "id": 43,
+      "name": "Isaac Price",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "143",
+      "startDate": "2024-11-27",
+      "paymentDue": 1600,
+      "status": "Pending"
+    },
+    {
+      "id": 44,
+      "name": "Nora Gray",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "144",
+      "startDate": "2024-11-28",
+      "paymentDue": 1700,
+      "status": "Pending"
+    },
+    {
+      "id": 45,
+      "name": "Levi Thompson",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "145",
+      "startDate": "2024-11-29",
+      "paymentDue": 1800,
+      "status": "Pending"
+    },
+    {
+      "id": 46,
+      "name": "Aria Scott",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "146",
+      "startDate": "2024-11-30",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 47,
+      "name": "Jacob Phillips",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "147",
+      "startDate": "2024-12-01",
+      "paymentDue": 1400,
+      "status": "Pending"
+    },
+    {
+      "id": 48,
+      "name": "Scarlett Evans",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "148",
+      "startDate": "2024-12-02",
+      "paymentDue": 1500,
+      "status": "Pending"
+    },
+    {
+      "id": 49,
+      "name": "Dylan Parker",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "149",
+      "startDate": "2024-12-03",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 50,
+      "name": "Natalie Brooks",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "150",
+      "startDate": "2024-12-04",
+      "paymentDue": 1600,
+      "status": "Pending"
+    },
+    {
+      "id": 51,
+      "name": "Gabriel Wood",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "151",
+      "startDate": "2024-12-05",
+      "paymentDue": 1700,
+      "status": "Pending"
+    },
+    {
+      "id": 52,
+      "name": "Hannah Kelly",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "152",
+      "startDate": "2024-12-06",
+      "paymentDue": 1800,
+      "status": "Pending"
+    },
+    {
+      "id": 53,
+      "name": "Victoria Patterson",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "153",
+      "startDate": "2024-12-07",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 54,
+      "name": "Samuel Cook",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "154",
+      "startDate": "2024-12-08",
+      "paymentDue": 1400,
+      "status": "Pending"
+    },
+    {
+      "id": 55,
+      "name": "Liam Bailey",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "155",
+      "startDate": "2024-12-09",
+      "paymentDue": 1500,
+      "status": "Pending"
+    },
+    {
+      "id": 56,
+      "name": "Sofia Powell",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "156",
+      "startDate": "2024-12-10",
+      "paymentDue": 1600,
+      "status": "Pending"
+    },
+    {
+      "id": 57,
+      "name": "Owen Hayes",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "157",
+      "startDate": "2024-12-11",
+      "paymentDue": 1700,
+      "status": "Pending"
+    },
+    {
+      "id": 58,
+      "name": "Brooklyn Hughes",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "158",
+      "startDate": "2024-12-12",
+      "paymentDue": 1800,
+      "status": "Pending"
+    },
+    {
+      "id": 59,
+      "name": "James Edwards",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "159",
+      "startDate": "2024-12-13",
+      "paymentDue": 0,
+      "status": "Paid"
+    },
+    {
+      "id": 60,
+      "name": "Avery Jenkins",
+      "idPhoto": "https://placehold.co/600x400/000000/FFF",
+      "roomNumber": "160",
+      "startDate": "2024-12-14",
+      "paymentDue": 1500,
+      "status": "Pending"
+    }
+  ],
+  "income": 13500,
+  "openComplaints": 5,
+  "upcomingPayments": 3,
+  "availableRooms": 2,
+  "recentActivity": [
+    "New Tenant added on 2024/10/15",
+    "Tenant Bob Williams paid rent on 2024-10-13",
+    "New complaint filed by Charlie Brown on 2024-10-14"
+  ]
+}
