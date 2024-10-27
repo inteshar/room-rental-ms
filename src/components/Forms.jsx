@@ -178,14 +178,15 @@ const PaymentForm = ({ addPayment, handleChange, newPayment }) => {
     // Update the state with the selected tenant's details
     if (tenant) {
       setSelectedTenant({
+        name: tenant.name,
         idPhoto: tenant.idPhoto,
         roomNumber: tenant.roomNumber,
         startDate: tenant.startDate,
         paymentDue: tenant.paymentDue,
       });
     } else {
-      // Reset fields if no tenant is selected
       setSelectedTenant({
+        name: "",
         idPhoto: "",
         roomNumber: "",
         startDate: "",
@@ -243,7 +244,7 @@ const PaymentForm = ({ addPayment, handleChange, newPayment }) => {
               <img
                 src={selectedTenant.idPhoto ? selectedTenant.idPhoto : IDCard}
                 className="object-contain rounded-lg drop-shadow-md"
-                alt="id_photo"
+                alt={`${selectedTenant.name}'s ID`}
               />
             </div>
 

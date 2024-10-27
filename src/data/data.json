@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "John Doe",
-      "idPhoto": "../src/assets/johndoepp.jpg",
+      "idPhoto": "/src/assets/johndoepp.jpg",
       "roomNumber": "101",
       "startDate": "2024-10-01",
       "paymentDue": 1500,
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "Jane Smith",
-      "idPhoto": "../src/assets/janesmithid.jpg",
+      "idPhoto": "/src/assets/janesmithid.jpg",
       "roomNumber": "102",
       "startDate": "2024-10-05",
       "paymentDue": 0,
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "name": "Alice Johnson",
-      "idPhoto": "../src/assets/Alicejohnsonid.jpg",
+      "idPhoto": "/src/assets/Alicejohnsonid.jpg",
       "roomNumber": "103",
       "startDate": "2024-10-10",
       "paymentDue": 0,
@@ -30,7 +30,7 @@
     {
       "id": 4,
       "name": "Bob Williams",
-      "idPhoto": "../src/assets/bobwilliamsid.jpg",
+      "idPhoto": "/src/assets/bobwilliamsid.jpg",
       "roomNumber": "104",
       "startDate": "2024-10-15",
       "paymentDue": 1700,
