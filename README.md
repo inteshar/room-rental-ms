@@ -30,13 +30,20 @@ RoomRental is a comprehensive web-based system designed to streamline property r
     ```bash
     npm start
     ```
+5. Login Credentials (Not an actual login authentication implemented, this is just a sample application)
+    Username:
+   ```bash
+    admin
+    ```
+    Password:
+   ```bash
+    admin
+    ```
 
 ## Technologies Used
 
 - **Frontend**: React, Tailwind CSS
 - **Backend**: Node.js, Express
-- **Database**: Firebase / Firestore (or specify another if used)
-- **Additional Integrations**: Firebase Auth, Payment Gateway (e.g., Stripe, PayPal)
 
 ## Project Structure
 
