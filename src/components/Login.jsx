@@ -82,6 +82,17 @@ const Login = () => {
         >
           Login
         </button>
+
+        <p className="text-sm text-red-600">
+          *This is just a prototype to show you how this app works. You can
+          login with the following credentials or just navigate to the dashboard
+          and explore the features.
+          <br />
+          <span className="text-gray-600">
+            Username: <i className="font-bold">admin</i> <br />
+            Password: <i className="font-bold">admin</i>
+          </span>
+        </p>
       </form>
     </div>
   );
