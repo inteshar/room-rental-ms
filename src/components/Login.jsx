@@ -84,7 +84,7 @@ const Login = () => {
         </button>
 
         <p className="text-sm text-red-600">
-          *This is just a prototype to show you how this app works. You can
+          *This is just a demo app to show you how this app works. You can
           login with the following credentials or just navigate to the dashboard
           and explore the features.
           <br />
